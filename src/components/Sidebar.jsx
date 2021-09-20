@@ -6,6 +6,8 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { Avatar } from '@mantine/core'
+import avatar from '../raphael-avatar.jpg'
 import styled from 'styled-components';
 
 import Home from './Home'
@@ -37,6 +39,7 @@ function Sidebar(props) {
         <h1 className="Sidebar-header">
           I am Raphael Spies.
         </h1>
+        <Avatar src={avatar} size={200} radius={200}></Avatar>
         <HR/>
         <li><LINK to="/">Home</LINK></li>
         <HR/>
