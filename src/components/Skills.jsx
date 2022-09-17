@@ -14,10 +14,10 @@ const Vertical = styled.div`
 `;
 
 export default function Skills(props) {
-const frontend = [ "HTML5", "CSS3", "React.js", "React Router", "Redux", "MaterialUI", "Styled Components", "JQuery",]
-const backend = ["Javascript", "Python", "Node.js", "Express", "Fastify", "MySQL", "PostreSQL", "MongoDB", "Knex", "Docker", "Amazon AWS", "Nginx"]
-const testing = ["Mocha/Chai", "Jest", "React Testing Library", "Loader.io", "AutoCannon", "K6", "Lighthouse" ]
-const devtools = ["Agile", "Scrum", "Trello", "VSCode", "Git", "NPM",  "Webpack", "Babel", "Parcel", "Microsoft Project", ]
+const frontend = [ "HTML5", "CSS3", "React.js", "Next.js", "React Router", "Redux", "MaterialUI", "Styled Components", "JQuery",]
+const backend = ["Javascript", "Python", "Node.js", "Express", "Fastify", "MySQL", "PostreSQL", "MongoDB",  "Docker", "Amazon AWS", "Nest.js"]
+const testing = ["Mocha/Chai", "Jest", "React Testing Library", "AutoCannon", "Jira XRay",]
+const devTools = ["Agile", "Scrum", "Jira", "Git", "NPM",  "Webpack", "WebStorm", "XCode", "Android Studio", ]
 
   return (
     <div className="Text" id="skills">
@@ -41,7 +41,7 @@ const devtools = ["Agile", "Scrum", "Trello", "VSCode", "Git", "NPM",  "Webpack"
 
         <ul>
           <h3>Project Tools</h3>
-          {devtools.map((skill, index) => <li key={index}>{skill} </li> )}
+          {devTools.map((skill, index) => <li key={index}>{skill} </li> )}
         </ul>
 
       </Horizontal>

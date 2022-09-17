@@ -6,7 +6,7 @@ export default function Projects() {
       <h1>Projects</h1>
 
       <h2>Snome</h2>
-
+      <a href="https://github.com/Snome-Snow-Home/Snome">Snome on GitHub</a>
       <h2>ScrollMaster</h2>
       Live Link: <a href="https://scrollmaster-image-gallery.vercel.app/" target="_blank" rel="noreferrer">ScrollMaster on Vercel</a>
 
