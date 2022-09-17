@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/repositories/raphspies.com-2.0/src/App.js
+    script:
+    # From https://create-react-app.dev/docs/deployment/
+      - npm install -g serve
+      - serve -s build
