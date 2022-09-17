@@ -3,7 +3,7 @@ import '../App.css';
 
 export default function About() {
   return (
-    <div>
+    <div className="Text" id="about">
       <h1>
         I am Raphael Spies: Full Stack Software Engineer, architecture enthusiast, and lifelong learner.
       </h1>

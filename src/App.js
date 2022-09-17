@@ -13,6 +13,7 @@ import {
 import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 const Horizontal = styled.div`
   display: flex;
@@ -21,7 +22,7 @@ const Horizontal = styled.div`
 `;
 
 const Inline = styled.div`
-  margin-left: 350px;
+  margin-left: 250px;
 `;
 
 function App() {
@@ -36,17 +37,14 @@ function App() {
       <Horizontal>
 
         <Router>
-        <Sidebar className="sidebar" />
-          <Inline>
-            <Switch>
-                <Route exact path="/" handleClick={handleClick}> <Home/> </Route>
-                <Route path="/about" handleClick={handleClick}> <About/> </Route>
-                <Route path="/projects" handleClick={handleClick}> Projects </Route>
-                <Route path="/skills" handleClick={handleClick}> <Skills/> </Route>
-                <Route path="/contact" handleClick={handleClick}> Contact </Route>
-              </Switch>
-          </Inline>
+        {/* <Sidebar className="sidebar" /> */}
         </Router>
+          <Inline>
+              <Home/>
+              <About/>
+              <Skills/>
+              <Projects/>
+          </Inline>
       </Horizontal>
     </div>
   );
