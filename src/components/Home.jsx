@@ -1,24 +1,18 @@
 import React from 'react'
 import '../App.css';
 import { Avatar } from '@mantine/core'
-import avatar from '../raphael-avatar.jpg'
+import avatar from '../raphaelAvatar.jpg'
 import styled from 'styled-components';
-
-const Centered = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-`;
+import { Text, Centered, SAvatar } from './stylesheet';
 
 export default function Home() {
   return (
-    <div className="Text" id="home">
+    <Text id="home">
       <Centered>
         <h1> Hi there 👋, I'm @raphaelspies </h1>
       </Centered>
       <Centered>
-        <Avatar src={avatar} size={200} radius={200} className="Avatar"></Avatar>
+        <SAvatar src={avatar} size={200} radius={200}> </SAvatar>
       </Centered>
       <Centered>
         <p>
@@ -28,6 +22,6 @@ export default function Home() {
         <a href="https://www.github.com/raphaelspies/">GitHub</a> &nbsp;
         </p>
       </Centered>
-      </div>
+      </Text>
   )
 }

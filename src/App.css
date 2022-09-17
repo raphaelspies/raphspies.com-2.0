@@ -4,22 +4,15 @@
 
 .Text {
   background-color: white;
+  color: black;
   padding: 20px;
   max-width: 600px;
   margin-bottom: 200px;
   border-radius: 20px;
   opacity: 80%;
+  z-index: 1
 }
 
 .Avatar {
   opacity: 100% !important;
 }
-
-/* .Sidebar {
-  display: flex;
-  flex-direction: horizontal;
-  flex-wrap: wrap;
-  border: 10px;
-  margin: 10px;
-  background-color: red;
-} */

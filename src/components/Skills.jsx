@@ -1,17 +1,8 @@
 import React from 'react'
 import '../App.css';
 import styled from 'styled-components';
+import { Text, Horizontal, } from './stylesheet';
 
-const Horizontal = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-`;
-
-const Vertical = styled.div`
-  display: none;
-  flex-direction: none;
-`;
 
 export default function Skills(props) {
 const frontend = [ "HTML5", "CSS3", "React.js", "Next.js", "React Router", "Redux", "MaterialUI", "Styled Components", "JQuery",]
@@ -20,7 +11,7 @@ const testing = ["Mocha/Chai", "Jest", "React Testing Library", "AutoCannon", "J
 const devTools = ["Agile", "Scrum", "Jira", "Git", "NPM",  "Webpack", "WebStorm", "XCode", "Android Studio", ]
 
   return (
-    <div className="Text" id="skills">
+    <Text id="skills">
       <h1>Technical Skills</h1>
       <Horizontal>
 
@@ -45,6 +36,6 @@ const devTools = ["Agile", "Scrum", "Jira", "Git", "NPM",  "Webpack", "WebStorm"
         </ul>
 
       </Horizontal>
-    </div>
+    </Text>
   )
 }

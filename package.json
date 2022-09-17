@@ -1,8 +1,8 @@
 {
   "name": "raphspies.com",
-  "homepage": "https://raphspies.com",
+  "homepage": ".",
   "version": "2.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mantine/core": "^2.5.1",
     "@mantine/hooks": "^2.5.1",

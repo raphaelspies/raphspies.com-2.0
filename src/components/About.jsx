@@ -1,9 +1,10 @@
 import React from 'react'
 import '../App.css';
+import { Text } from './stylesheet';
 
 export default function About() {
   return (
-    <div className="Text" id="about">
+    <Text>
       <h1>
         I am a Full Stack Software Engineer, architecture enthusiast, and lifelong learner.
       </h1>
@@ -34,6 +35,6 @@ export default function About() {
       <p>
         - I've hiked to the top of Mt. Whitney twice!
       </p>
- </div>
+ </Text>
   )
 }

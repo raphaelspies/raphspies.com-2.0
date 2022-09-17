@@ -1,8 +1,10 @@
 import React from 'react'
+import '../App.css';
+import { Text, } from './stylesheet';
 
 export default function Projects() {
   return (
-    <div className="Text" id="projects">
+    <Text id="projects">
       <h1>Projects</h1>
 
       <h2>Snome</h2>
@@ -17,6 +19,6 @@ export default function Projects() {
       A hotline that will tell the caller any vanity phone numbers that can be created using their phone number. <br/>
       <a href="tel:2284473585">(228) 447-3585</a>
 
-    </div>
+    </Text>
   )
 }
